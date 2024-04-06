@@ -1,27 +1,32 @@
-let map;
-
-
 function initMap() {
 
-  const position = { lat: -34.397, lng: 150.644 };
+  const map = new google.maps.Map(document.getElementById("map"), {
 
-
-  map = new google.maps.Map(document.getElementById("map"), {
-
-    center: position,
+    center: { lat: -34.397, lng: 150.644 },
 
     zoom: 8,
 
   });
 
 
+  const icon = {
+
+    url: "img/map.webp", // replace with the path to your icon file
+
+    scaledSize: new google.maps.Size(50, 50), // set the size of the icon
+
+  };
+
+
   const marker = new google.maps.Marker({
 
-    position: position,
+    position: { lat: -34.397, lng: 150.644 },
 
     map: map,
 
     title: "Hello World!",
+
+    icon: icon,
 
   });
 

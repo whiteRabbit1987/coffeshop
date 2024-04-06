@@ -1,5 +1,6 @@
 body {
     font-family: "Edu TAS Beginner", cursive;
+    /* background-color: #645f5e; */
 }
 
 h1,
@@ -58,48 +59,11 @@ section .nav-link:hover {
     border: solid #786a11;
 }
 
-.ca-btn {
-    background: #0dcaf0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    width: 60%;
-}
-
-#reserveModal {
-    .modal-header {
-        background-color: teal;
-        color: white;
-    }
-}
-
-#loginModal {
-    .modal-header {
-        background-color: blue;
-        color: white;
-    }
-}
-
 .custom-list{
     list-style: none;
     display: flex;
 }
 
-.custom-list li {
-    padding: 5px 5px 5px 1px;
-    margin-left: none;
-}
-
-
-.cust:hover{
-    background-color: rgb(141, 250, 250);
-}
-
-.cust-2:hover{
-    background-color: #0dcaf0;
-}
 
 .c-item{
     height: 480px;
@@ -148,4 +112,5 @@ section .nav-link:hover {
 .bi-youtube{
     color: red;
 }
+
 
