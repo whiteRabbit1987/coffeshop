@@ -113,4 +113,19 @@ section .nav-link:hover {
     color: red;
 }
 
+.bi-facebook:hover{
+    cursor: pointer;
+}
+
+.bi-instagram:hover{
+    cursor: pointer;
+}
+
+.bi-twitter{
+    cursor: pointer;
+}
+
+.bi-youtube{
+    cursor: pointer;
+}
 
